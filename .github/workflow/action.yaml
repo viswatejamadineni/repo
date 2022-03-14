@@ -4,7 +4,7 @@ on: push
 
 jobs: 
   init: 
-  runs-on: custom-runner
+  runs-on: self-hosted
   steps:
     - run: echo $hostname
-           echo "hello"         
+    - run: echo "hello"         
