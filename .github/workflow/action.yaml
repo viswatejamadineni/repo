@@ -1,0 +1,10 @@
+name: run on cust
+
+on: push
+
+jobs: 
+  init: 
+  runs-on: custom-runner
+  steps:
+    - run: echo $hostname
+           echo "hello"         
